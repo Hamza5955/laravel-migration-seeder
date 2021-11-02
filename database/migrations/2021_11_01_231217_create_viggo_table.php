@@ -17,9 +17,7 @@ class CreateViggoTable extends Migration
             $table->id();
             $table->string('departure', 150);
             $table->string('destination', 150);
-            $table->string('cuntray', 50);
-            $table->date('daparture_date');
-            $table->string('mail', 50); 
+            $table->string('cuntray', 50);s
             $table->integer('phone');
             $table->date('return_date');
             $table->timestamps();
